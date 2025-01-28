@@ -14,3 +14,4 @@ pip install -r requirements.txt
 
 
 - [Text generator](https://www.blindtextgenerator.com/lorem-ipsum)
+- [Word list](https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases)
