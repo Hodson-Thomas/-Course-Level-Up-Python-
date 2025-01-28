@@ -10,6 +10,7 @@ def count_unique_words(file_path: str, display_top_n: int):
             for word in line.strip().split():
                 buffer[word] = buffer.get(word, 0) + 1
     count = sum(buffer.values())
+    print(f"{count} words")
     for i, word in enumerate(sorted(buffer.keys(), key=lambda key: buffer[key])[:display_top_n], start=1):
         print(f"{i: <5}{word: <30}{buffer[word] / count * 100.0:.2f}%") 
 
